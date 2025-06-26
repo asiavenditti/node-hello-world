@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
+    "start": "node --env-file=.env index.js",
     "watch": "node --env-file=.env --watch index.js"
   },
   "repository": {
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/asiavenditti/node-hello-world#readme",
   "description": "",
   "dependencies": {
-    "dotenv": "^16.5.0"
+    "axios": "^1.10.0",
+    "chalk": "^5.4.1"
   }
 }
